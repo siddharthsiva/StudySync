@@ -1,0 +1,23 @@
+.flashcard {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: 1.5rem auto;
+  transition: all 0.3s;
+}
+
+.flashcard .back {
+  display: none;
+  font-size: 1.1rem;
+  color: green;
+}
+
+.flashcard.flipped .front {
+  display: none;
+}
+
+.flashcard.flipped .back {
+  display: block;
+}

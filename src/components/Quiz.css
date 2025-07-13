@@ -1,0 +1,36 @@
+.filters {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.filters input,
+.filters select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.tab-buttons div {
+  background-color: #e0e7ff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.2s, transform 0.1s;
+  border: 2px solid transparent;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.tab-buttons div:hover {
+  background-color: #c7d2fe;
+  transform: translateY(-1px);
+}
+
+.tab-buttons .active-tab {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
